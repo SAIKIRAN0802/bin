@@ -27,6 +27,7 @@ class Bully{
         System.out.println("Which process will initiate election?");
         int ele = in.nextInt();
         elect(ele);
+        System.out.println("Final coordinator is "+co);
         in.close();
     }
 
