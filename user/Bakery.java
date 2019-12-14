@@ -31,7 +31,7 @@ public class Bakery extends Thread {
 	private int findMax() {
 		int max= ticket[0];
 		for (int i = 1; i < ticket.length; i++) {
-			if (ticket[i] > m)
+			if (ticket[i] > max)
 				max= ticket[i];
 		}
 		return max;
